@@ -26,7 +26,7 @@ class Currencies extends Controller
     {
         parent::__construct();
 
-        BackendMenu::setContext('October.System', 'system', 'settings');
+        BackendMenu::setContext('Winter.System', 'system', 'settings');
         SettingsManager::setContext('Responsiv.Currency', 'currencies');
 
         $this->addJs('/plugins/responsiv/currency/assets/js/currency-list.js');

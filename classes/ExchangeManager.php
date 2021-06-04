@@ -1,8 +1,8 @@
 <?php namespace Responsiv\Currency\Classes;
 
 use System\Classes\PluginManager;
-use October\Rain\Support\Collection;
-use October\Rain\Support\Singleton;
+use Winter\Storm\Support\Collection;
+use Winter\Storm\Support\Singleton;
 
 /**
  * Manages converter exchanges

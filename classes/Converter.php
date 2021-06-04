@@ -3,7 +3,7 @@
 use Carbon\Carbon;
 use Responsiv\Currency\Models\ExchangeRate;
 use Responsiv\Currency\Models\ExchangeConverter;
-use October\Rain\Support\Singleton;
+use Winter\Storm\Support\Singleton;
 use ApplicationException;
 use Exception;
 

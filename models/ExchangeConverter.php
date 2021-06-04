@@ -8,8 +8,8 @@ use Responsiv\Currency\Classes\ExchangeManager;
  */
 class ExchangeConverter extends Model
 {
-    use \October\Rain\Database\Traits\Purgeable;
-    use \October\Rain\Database\Traits\Validation;
+    use \Winter\Storm\Database\Traits\Purgeable;
+    use \Winter\Storm\Database\Traits\Validation;
 
     /**
      * @var string The database table used by the model.

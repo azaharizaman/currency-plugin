@@ -1,7 +1,7 @@
 {
     "name": "responsiv/currency-plugin",
     "type": "winter-plugin",
-    "description": "Currency plugin for OctoberCMS",
+    "description": "Currency plugin for WinterCMS",
     "homepage": "https://github.com/azaharizaman/currency-plugin",
     "keywords": ["winter", "cms", "responsiv", "currency"],
     "authors": [

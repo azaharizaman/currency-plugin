@@ -1,6 +1,6 @@
 <?php namespace Responsiv\Currency\Facades;
 
-use October\Rain\Support\Facade;
+use Winter\Storm\Support\Facade;
 
 class Currency extends Facade
 {

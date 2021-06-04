@@ -10,7 +10,7 @@ use ValidationException;
  */
 class Currency extends Model
 {
-    use \October\Rain\Database\Traits\Validation;
+    use \Winter\Storm\Database\Traits\Validation;
 
     /**
      * @var string The database table used by the model.
@@ -154,8 +154,8 @@ class Currency extends Model
 
     /**
      * Scope for checking if model is enabled
-     * @param  \October\Rain\Database\Builder $query
-     * @return \October\Rain\Database\Builder
+     * @param  \Winter\Storm\Database\Builder $query
+     * @return \Winter\Storm\Database\Builder
      */
     public function scopeIsEnabled($query)
     {

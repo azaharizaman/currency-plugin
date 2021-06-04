@@ -1,6 +1,6 @@
 <?php namespace Responsiv\Currency;
 
-use October\Rain\Database\Updates\Seeder;
+use Winter\Storm\Database\Updates\Seeder;
 use Responsiv\Currency\Models\Currency;
 
 class SeedAllTables extends Seeder
